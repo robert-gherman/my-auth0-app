@@ -1,7 +1,8 @@
 // app/index.tsx
 import React, { useState } from "react";
 import { View, Button, Text } from "react-native";
-import auth0, { Credentials } from "../services/auth";
+import auth0 from "../services/auth";
+import { Credentials } from "react-native-auth0";
 import { useRouter } from "expo-router";
 
 const HomeScreen = () => {
